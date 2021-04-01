@@ -1,0 +1,317 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi),
+	only screen and (min-resolution: 2dppx) {
+	.step-instructions__item-body-img {
+		background: url("../img/info-1@x2.png") -29px -27px no-repeat;
+		background-size: 215px 368px;
+	}
+
+	.step-instruction__column:nth-child(2) .step-instructions__item-body-img {
+		background: url("../img/info-2@x2.png") -29px -27px no-repeat;
+		background-size: 215px 368px;
+	}
+
+	.step-instruction__column:nth-child(3) .step-instructions__item-body-img {
+		background: url("../img/info-3@x2.png") -29px -27px no-repeat;
+		background-size: 215px 368px;
+	}
+
+	.step-instruction__column:last-child .step-instructions__item-body-img {
+		background: url("../img/info-4@x2.png") -29px -27px no-repeat;
+		background-size: 215px 368px;
+	}
+}
+
+@media screen and (max-height: 800px) {
+	.header .wrap {
+		height: 110px;
+	}
+
+	.step20 .step-head {
+		margin-bottom: 15px;
+	}
+
+	.step20 .step-instructions {
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (max-height: 768px) {
+	.header .wrap {
+		height: 100px;
+	}
+}
+
+@media screen and (max-width: 1023.98px) {
+	.content {
+		padding: 5% 0 0%;
+	}
+
+	.step-instruction__row {
+		max-width: 1000px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+
+	.step-instruction__column {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 320px;
+		margin-bottom: 15px;
+	}
+
+	.step-instruction__column:first-child .step-instructions__item {
+		margin-left: auto;
+	}
+
+	.step-instruction__column:nth-child(3) {
+		margin-left: 0;
+	}
+
+	.step-instruction__column:nth-child(3) .step-instructions__item {
+		margin-left: auto;
+	}
+
+	.step-instruction__column:nth-child(3) .step-instructions__item-body-step::after {
+		display: none;
+	}
+} /*1024*/
+
+@media screen and (max-width: 970px) {
+	.header-info {
+		display: none;
+	}
+} /*970*/
+
+@media screen and (max-width: 750px) {
+	.step-head {
+		margin-bottom: 10%;
+	}
+
+	.step-instruction__column {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 231px;
+	}
+
+	.step20 .step-footer {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.step20 .step-footer__text {
+		text-align: center;
+		margin: 0 0 20px 0;
+	}
+
+	.step20 .sms-container {
+		max-width: 300px;
+		margin: 0 auto 30px;
+		-webkit-box-align: stretch;
+		-ms-flex-align: stretch;
+		align-items: stretch;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.step20 .sms-info {
+		text-align: center;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.sms-container-list {
+		display: block;
+	}
+
+	.step20 .sms-item {
+		margin: 0 0 15px;
+	}
+
+	.header .wrap {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+
+	.header-right {
+		display: none;
+	}
+
+	.content,
+	.step {
+		min-height: 1px;
+	}
+
+	.step-content {
+		margin: 0;
+	}
+
+	.btn {
+		margin: 0 0 20px 0;
+	}
+} /*750*/
+
+@media screen and (max-width: 550px) {
+	.step-instruction__column {
+		max-width: 200px;
+	}
+
+	.step-instructions__item {
+		height: 100%;
+		max-width: 158px;
+		margin-bottom: 30px;
+	}
+
+	.step-instruction__column .step-instructions__item-body-step::after {
+		display: none;
+	}
+
+	.step-instruction__column .step-instructions__item-body-step::before {
+		display: none;
+	}
+
+	.step-instructions__item-body-step {
+		position: absolute;
+		z-index: 999;
+		top: -15px;
+		left: 50%;
+		-webkit-transform: translate(-50%, 0);
+		-ms-transform: translate(-50%, 0);
+		transform: translate(-50%, 0);
+		background-color: #fff;
+	}
+
+	.step-instructions__item-body-img {
+		position: relative;
+		z-index: 1;
+		margin-left: 0;
+	}
+
+	.step-instructions__item-info {
+		max-width: auto;
+		margin-left: 0;
+	}
+
+	.step-instructions__item-body {
+		margin-bottom: 5px;
+	}
+
+	.input-field {
+		line-height: 39px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.step-head__title {
+		line-height: 1.25;
+	}
+
+	.step-instruction__column {
+		max-width: 158px;
+	}
+
+	.step20 .step-footer__text {
+		text-align: left;
+	}
+
+	.content {
+		margin: 0 auto;
+		max-width: 388px;
+		text-align: left;
+	}
+
+	.btn-yes,
+	.btn-no {
+		max-width: none;
+		width: calc((100% - 22px) / 2);
+	}
+} /*480*/
+
+@media screen and (max-width: 440px) {
+	.btn {
+		height: 60px;
+	}
+
+	.btn-yes {
+		height: 100px;
+	}
+
+	.input2 .first {
+		width: calc(100% - 109px);
+	}
+
+	.input2 .last {
+		width: 109px;
+	}
+
+	.input2 .rus {
+		right: 35px;
+	}
+} /*440*/
+
+@media screen and (max-width: 390px) {
+	.step-instruction__row {
+		margin: 0 -10px;
+	}
+
+	.step-instruction__column {
+		max-width: 140px;
+		margin: 0 auto 15px;
+	}
+
+	.step-instructions__item-body-img {
+		background: url("../img/info-1@x2.png") -29px -27px no-repeat;
+		background-size: 195px 368px;
+	}
+
+	.step-instruction__column:nth-child(2) .step-instructions__item-body-img {
+		background: url("../img/info-2@x2.png") -29px -27px no-repeat;
+		background-size: 195px 368px;
+	}
+
+	.step-instruction__column:nth-child(3) .step-instructions__item-body-img {
+		background: url("../img/info-3@x2.png") -29px -27px no-repeat;
+		background-size: 195px 368px;
+	}
+
+	.step-instruction__column:last-child .step-instructions__item-body-img {
+		background: url("../img/info-4@x2.png") -29px -27px no-repeat;
+		background-size: 195px 368px;
+	}
+
+	.step-instruction__column:nth-child(3) {
+		margin-left: auto;
+	}
+
+	.step-instruction__column:not(:first-child) {
+		margin-left: auto;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.logo {
+		width: 280px;
+		height: 83px;
+		background-size: cover;
+	}
+
+	.input-field {
+		font-size: 32px;
+	}
+} /*375*/
